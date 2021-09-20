@@ -9,7 +9,13 @@ public class Task7 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println(ChangeSymbols("asasas", "a", "b"));
+		System.out.println("Please enter text." + "\n");
+		String text = sc.nextLine();
+		System.out.println("Please enter replaceable symbol in text." + "\n");
+		String symbolBefore = sc.nextLine();
+		System.out.println("Please enter symbol you want to insert in text!" + "\n");
+		String symbolAfter = sc.nextLine();
+		System.out.println(ChangeSymbols(text, symbolBefore, symbolAfter));
 
 	}
 }
