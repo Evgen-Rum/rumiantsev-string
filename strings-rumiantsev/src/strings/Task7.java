@@ -9,11 +9,11 @@ public class Task7 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter text." + "\n");
+		System.out.println("Please enter text.");
 		String text = sc.nextLine();
-		System.out.println("Please enter replaceable symbol in text." + "\n");
+		System.out.println("Please enter replaceable symbol in text.");
 		String symbolBefore = sc.nextLine();
-		System.out.println("Please enter symbol you want to insert in text!" + "\n");
+		System.out.println("Please enter symbol you want to insert in text!");
 		String symbolAfter = sc.nextLine();
 		System.out.println(ChangeSymbols(text, symbolBefore, symbolAfter));
 
