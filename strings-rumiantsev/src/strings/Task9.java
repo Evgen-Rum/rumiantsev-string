@@ -26,7 +26,7 @@ public class Task9 {
 				count++;
 			}
 		}
-		System.out.println("Number of x letters in your line: " + count);
+		System.out.println("Number of " + numOfLetter + " letters in your line: " + count);
 	}
 
 }
