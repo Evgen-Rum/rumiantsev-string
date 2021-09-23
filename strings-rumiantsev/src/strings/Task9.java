@@ -13,10 +13,10 @@ public class Task9 {
 			if (sc.hasNextInt()) {
 				numOfLetter = sc.nextInt();
 				break;
-			} else if (i < 2){
+			} else if (i < 2) {
 				System.out.println("Incorrect data! Please enter whole number!");
 				sc.next();
-			}  else {
+			} else {
 				System.out.println("Inccorect data! End of the program!");
 			}
 		}
@@ -26,7 +26,7 @@ public class Task9 {
 				count++;
 			}
 		}
-		System.out.println("Number of " + numOfLetter + " letters in your line: " + count);
+		System.out.println("Number of " + (char) numOfLetter + " letters in your line: " + count);
 	}
 
 }
